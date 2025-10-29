@@ -18,7 +18,7 @@ $(".btn").click(function(){
 });
 
 function playSound(val){
-  var audioFile = val+".mp3"
+  var audioFile = "Sounds/"+val+".mp3"
   console.log(audioFile)
   var audio = new Audio(audioFile)
   audio.play()
